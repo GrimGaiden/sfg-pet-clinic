@@ -17,7 +17,7 @@
     <version>2.3.1.RELEASE</version>
         		
     
-    <relativePath />
+    <relativePath/>
          
     
     <!-- lookup parent from repository -->
@@ -32,7 +32,7 @@
   <artifactId>sfgpetclinic</artifactId>
     	
   
-  <version>0.0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
     	
   
   <packaging>pom</packaging>
@@ -111,7 +111,12 @@
         	
   
   </build>
-    
+  
+  <scm>
+
+    <developerConnection>scm:git:git@github.com:GrimGaiden/sfg-pet-clinic.git</developerConnection>
+
+  </scm>
   
   <modules>
           
@@ -123,8 +128,4 @@
       
   </modules>
   
-
-  <scm>
-    <tag>sfgpetclinic-0.0.1</tag>
-  </scm>
 </project>
